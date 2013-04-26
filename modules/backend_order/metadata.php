@@ -6,8 +6,8 @@
 $aModule = array(
     'id' => 'backend_order',
     'title' => 'Backend Order',
-    'description' => 'Deactivate Recalculating price, discount, shipping, payment in Backend Order Managment.',
-    'version' => '0.6',
+    'description' => 'Deactivate Recalculating article price, discount, voucher, shipping, payment, wrapping, ts protection costs in Backend Order Managment.',
+    'version' => '1.01',
     'author' => 'Jason KX',
 
 
@@ -24,6 +24,7 @@ $aModule = array(
         array('group' => 'order', 'name' => 'jkxRecalculateOrderDelivery',    'type' => 'bool', 'value' => 'false'),
         array('group' => 'order', 'name' => 'jkxRecalculateOrderPayment',    'type' => 'bool', 'value' => 'false'),
         array('group' => 'order', 'name' => 'jkxRecalculateOrderTSProtection',    'type' => 'bool', 'value' => 'false'),
+        array('group' => 'order', 'name' => 'jkxRecalculateOrderWrapping',    'type' => 'bool', 'value' => 'false')
     )
 );
 
